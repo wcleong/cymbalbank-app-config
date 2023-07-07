@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: ledgerwriter
-        image: gcr.io/bank-of-anthos-ci/ledgerwriter:v0.5.2
+        image: gcr.io/automatic-rite-391920/cymbal-bank/release/ledgerwriter:c0d4874
         env:
         - name: ENABLE_TRACING
           value: "true"

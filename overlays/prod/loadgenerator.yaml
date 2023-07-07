@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: loadgenerator
-        image: gcr.io/bank-of-anthos-ci/loadgenerator:v0.5.2
+        image: gcr.io/automatic-rite-391920/cymbal-bank/release/loadgenerator:c0d4874
         env:
         - name: LOG_LEVEL
           value: "info"
